@@ -1,3 +1,5 @@
+package hw2;
+
 import hw2.MyArrayDataException;
 import hw2.MyArraySizeException;
 import okhttp3.OkHttpClient;
