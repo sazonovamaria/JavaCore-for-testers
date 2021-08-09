@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.util.Scanner;
 
+
+
 public class UserInterfaceView {
     public void runInterface() {
         Scanner scanner = new Scanner(System.in);
@@ -20,7 +22,8 @@ public class UserInterfaceView {
             if (command.equals("0")) break;
 
             try {
-                controller.getWeather(command, city);
+              
+            Controller.getWeather(command, city);
             } catch (IOException e) {
                 e.printStackTrace();
             }
