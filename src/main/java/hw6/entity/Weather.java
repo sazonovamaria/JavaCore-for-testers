@@ -3,6 +3,9 @@ package hw6.entity;
 public class Weather {
     private String city;
 
+    public Weather(String city, String localdate, double temperature) {
+    }
+
     public void setCity(String city) {
         this.city = city;
     }
@@ -17,6 +20,7 @@ public class Weather {
 
     private String localdate;
     private String temperature;
+
     public String getCity() {
         return city;
     }
@@ -30,8 +34,7 @@ public class Weather {
     }
 
 
-
-    public Weather (String city, String localdate, String temperature) {
+    public Weather(String city, String localdate, String temperature) {
         this.city = city;
         this.localdate = localdate;
         this.temperature = temperature;
